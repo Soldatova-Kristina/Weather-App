@@ -1,0 +1,42 @@
+@import url(./setting.css);
+
+.header__container {
+    gap: 164px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo-container {
+    height: 50px;
+}
+
+.header__logo-img {
+    width: 80px;
+    height: 84px;
+}
+
+.header__logo-name {
+    font-size: 69px;
+    padding-left: 64px;
+    margin-top: -11px;
+}
+
+.header__logo-time {
+    font-size: 19px;
+    padding-left: 359px;
+    font-weight: 700;
+    margin-top: -39px;
+}
+
+.header__nav-container {
+    margin-top: 84px;
+    font-size: 30px;
+    display: flex;
+    gap: 76px
+}
+.header__nav-tabs {
+    font-weight: 300;
+}
+.header__nav-tabs:hover{
+    font-weight: 700;
+}

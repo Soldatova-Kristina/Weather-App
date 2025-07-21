@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: var(--text-light) ;
+    background-color: var(--bg-dark);
+    line-height: 100%;
+  }
+  
+  :root {
+        --bg-dark: #252323;              
+        --text-light: #ffffff;           
+      
+        --accent-pink: #AD36CB;          
+        --card-dark: #333333;            
+      
+        --input-bg: #D9D9D9;             
+        
+        --green-bright: #33E017;         
+        --green-soft: #95F186;           
+      
+        --aqua-light: #10C38E;           
+        --aqua-deep: #0E8494;           
+      }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  
