@@ -18,6 +18,7 @@
 .header__logo-name {
     font-size: 69px;
     padding-left: 64px;
+    
     margin-top: -11px;
 }
 
@@ -40,3 +41,50 @@
 .header__nav-tabs:hover{
     font-weight: 700;
 }
+
+.header__unit-toggle {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 6px;
+    margin-left: 16px;
+    margin-top: 171px;
+  }
+  
+  .header__unit-label {
+    font-size: 28px;
+    color: var(--text-light);
+  }
+  
+  .header__switch {
+    position: relative;
+    width: 88px;
+    height: 30px;
+  }
+  
+  .header__slider {
+    position: absolute;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--green-bright), var(--card-dark));
+    border-radius: 34px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+  }
+  
+  .header__slider::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    top: 2px;
+    background-color: #181515;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  .header__checkbox:checked + .header__slider::before {
+    transform: translateX(62px);
+  }
